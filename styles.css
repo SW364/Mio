@@ -1,0 +1,28 @@
+.barra-navegacion {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.barra-navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.barra-navegacion ul li {
+    margin-right: 20px;
+}
+
+.barra-navegacion ul li:last-child {
+    margin-right: 0;
+}
+
+.barra-navegacion ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.barra-navegacion ul li a.contacto {
+    color: blue; /* Cambia el color a rojo para el elemento 'Contacto' */
+}
